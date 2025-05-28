@@ -21,8 +21,9 @@ if TYPE_CHECKING:
         APITestCINNVSDygraph,
         APITestPaddleOnly,
     )
-    import torch
-    import paddle
+
+import torch
+import paddle
 
 from tester.api_config.log_writer import *
 
